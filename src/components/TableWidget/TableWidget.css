@@ -33,7 +33,7 @@ tr {
   display: table;
   width: 100%;
   table-layout: fixed;
-  height: 54px; /* Ensures consistent row height */
+  height: 54px;
 }
 
 tbody > tr:hover {
@@ -46,4 +46,14 @@ tbody > tr:hover {
   padding: 0.6em 1.2em;
   font-size: 1em;
   font-weight: 500;
+}
+
+@media (max-width: 574px) {
+  tfoot > tr td:first-child {
+    width: 10%;
+  }
+  .pagination-container {
+    padding-right: 30px;
+    display: flex;
+  }
 }
