@@ -1,0 +1,49 @@
+.tableWidget {
+  width: 100%;
+  border-collapse: collapse;
+  table-layout: fixed;
+  border-radius: 20%;
+}
+
+thead,
+tfoot {
+  display: table-header-group;
+  background-color: #333333;
+  color: #dddddd;
+  width: 100%;
+}
+
+tbody {
+  display: block;
+  height: 270px;
+  width: 100%;
+}
+
+.pagination-container {
+  padding-right: 30px;
+}
+
+td,
+th {
+  width: 25%;
+  padding: 8px;
+}
+
+tr {
+  display: table;
+  width: 100%;
+  table-layout: fixed;
+  height: 54px; /* Ensures consistent row height */
+}
+
+tbody > tr:hover {
+  background-color: #d6eeee;
+}
+
+.page-number-span {
+  border-radius: 8px;
+  border: 1px solid transparent;
+  padding: 0.6em 1.2em;
+  font-size: 1em;
+  font-weight: 500;
+}
